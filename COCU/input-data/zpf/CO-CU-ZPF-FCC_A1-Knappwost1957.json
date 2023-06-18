@@ -1,0 +1,24 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			773,
+			823,
+			873,
+			923,
+			973
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.998]]],
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9978]]],
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9959]]],
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9952]]],
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9929]]]
+    ],
+    "reference": "Knappwost1957"
+}

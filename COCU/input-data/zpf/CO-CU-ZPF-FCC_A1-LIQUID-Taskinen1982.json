@@ -1,0 +1,42 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["LIQUID", "FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+		1674,
+		1669,
+		1655,
+		1657,
+		1638,
+		1622.5,
+		1607.5,
+		1592,
+		1549.5,
+		1536.5,
+		1509,
+		1431,
+		1401.5,
+		1383.5
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+		[["LIQUID", ["CU"], [0.3015]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.4174]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.4856]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.5804]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.6883]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.7854]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.8265]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.8486]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.8782]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.89]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.9164]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.9399]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.9516]], ["FCC_A1", ["CU"],  [null]]],
+		[["LIQUID", ["CU"], [0.9587]], ["FCC_A1", ["CU"],  [null]]]
+    ],
+    "reference": "Taskinen1982"
+}

@@ -1,0 +1,22 @@
+{
+    "components": ["AG", "CO", "VA"],
+    "phases": ["LIQUID"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			1973,
+			1873,
+			1773,
+			1762
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+        [["LIQUID", ["CO"], [null]], ["LIQUID", ["CO"],  [0.9923]]],
+		[["LIQUID", ["CO"], [null]], ["LIQUID", ["CO"],  [0.9944]]],
+		[["LIQUID", ["CO"], [null]], ["LIQUID", ["CO"],  [0.9961]]],
+		[["LIQUID", ["CO"], [null]], ["LIQUID", ["CO"],  [0.9964]]]
+    ],
+    "reference": "Burylev1976"
+}

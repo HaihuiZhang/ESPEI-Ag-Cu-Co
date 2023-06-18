@@ -1,0 +1,20 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["LIQUID", "FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			1669,
+			1665,
+			1661
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+			[["LIQUID", ["CU"], [0.42]], ["FCC_A1", ["CU"],  [null]]],
+			[["LIQUID", ["CU"], [0.5]], ["FCC_A1", ["CU"],  [null]]],
+			[["LIQUID", ["CU"], [0.56]], ["FCC_A1", ["CU"],  [null]]]
+    ],
+    "reference": "Nakagawa1958"
+}

@@ -1,0 +1,26 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["LIQUID", "FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+		1549.92,
+		1524.65,
+		1498.27,
+		1475.2,
+		1447.73,
+		1422.45
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+				[["FCC_A1", ["CU"], [0.18138]], ["LIQUID", ["CU"],  [null]]],
+				[["FCC_A1", ["CU"], [0.173355]], ["LIQUID", ["CU"],  [null]]],
+				[["FCC_A1", ["CU"], [0.160514]], ["LIQUID", ["CU"],  [null]]],
+				[["FCC_A1", ["CU"], [0.152488]], ["LIQUID", ["CU"],  [null]]],
+				[["FCC_A1", ["CU"], [0.130016]], ["LIQUID", ["CU"],  [null]]],
+				[["FCC_A1", ["CU"], [0.128411]], ["LIQUID", ["CU"],  [null]]]
+    ],
+    "reference": "Hasebe1980"
+}

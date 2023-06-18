@@ -1,0 +1,30 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			1262,
+			1277,
+			1299,
+			1325,
+			1341,
+			1341,
+			1346,
+			1361
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+			[["FCC_A1", ["CU"], [0.061]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.068]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.077]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.087]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.091]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.096]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.099]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.105]], ["FCC_A1", ["CU"],  [null]]]
+    ],
+    "reference": "Bruni1972"
+}

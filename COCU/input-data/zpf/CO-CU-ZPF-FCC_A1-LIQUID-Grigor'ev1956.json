@@ -1,0 +1,38 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["LIQUID", "FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+		1495.29,
+		1561.88,
+		1580.79,
+		1625.19,
+		1635.88,
+		1644.92,
+		1652.32,
+		1658.89,
+		1649.85,
+		1661.36,
+		1666.29,
+		1708.22
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+				[["LIQUID", ["CU"], [0.885036]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.870438]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.812044]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.729927]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.673358]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.569343]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.441606]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.428832]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.374088]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.361314]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.259124]], ["FCC_A1", ["CU"],  [null]]],
+				[["LIQUID", ["CU"], [0.228102]], ["FCC_A1", ["CU"],  [null]]]
+    ],
+    "reference": "Grigor'ev1956"
+}

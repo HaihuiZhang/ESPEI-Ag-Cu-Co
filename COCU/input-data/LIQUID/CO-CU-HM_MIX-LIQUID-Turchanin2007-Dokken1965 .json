@@ -1,0 +1,37 @@
+{
+	"components": ["CO", "CU"],
+    "phases": ["LIQUID"],
+	"solver": {
+		"mode": "manual",
+		"sublattice_site_ratios": [1],
+		"sublattice_occupancies": [
+				[[0.00810373, 0.99189627]],
+				[[0.0178282, 0.9821718]],
+				[[0.0259319, 0.9740681]],
+				[[0.0324149, 0.9675851]],
+				[[0.0470016, 0.9529984]],
+				[[0.0615883, 0.9384117]]
+		],
+		"sublattice_configurations": [
+			[["CO", "CU"]],
+			[["CO", "CU"]],
+			[["CO", "CU"]],
+			[["CO", "CU"]],
+			[["CO", "CU"]],
+			[["CO", "CU"]]
+		]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T": 1473
+  },
+  "output": "HM_MIX",
+  "values":   [[[516.605,
+					955.72,
+					1317.34,
+					1575.65,
+					1808.12,
+					1885.61]]],
+  "reference": "Expt., Dokken et al. (1473 K)",
+  "comment": "Fig.2"
+}

@@ -1,0 +1,22 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["LIQUID", "FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			1366.67,
+			1368.06,
+			1366.67,
+			1377.78
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+			[["FCC_A1", ["CU"], [0.9764286]], ["LIQUID", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.9721429]], ["LIQUID", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.9635714]], ["LIQUID", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.9464286]], ["LIQUID", ["CU"],  [null]]]
+    ],
+    "reference": "Hashimoto1937"
+}

@@ -1,0 +1,16 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["LIQUID", "FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+		1599.7
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+				[["FCC_A1", ["CU"], [0.0583939999999999]], ["LIQUID", ["CU"],  [null]]]
+    ],
+    "reference": "Kubišta2000"
+}

@@ -1,0 +1,37 @@
+{
+  "components": ["AG", "CO", "VA"],
+  "phases": ["HCP_A3"],
+  "solver": {
+	  "mode": "manual",
+	  "sublattice_site_ratios": [1, 1],
+	    "sublattice_occupancies": [	  
+		  [[0.03125, 0.96875], 1],
+          [[0.25, 0.75], 1],
+          [[0.5, 0.5], 1],
+          [[0.75, 0.25], 1],
+		  [[0.96875, 0.03125], 1]
+				    ],
+	    "sublattice_configurations": [
+          [["AG", "CO"], "VA"],
+		  [["AG", "CO"], "VA"],
+		  [["AG", "CO"], "VA"],
+		  [["AG", "CO"], "VA"],
+          [["AG", "CO"], "VA"]
+				                   ]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T": 300
+  },
+  "excluded_model_contributions": ["idmix","mag"],
+  "output": "HM_MIX",
+    "values":   [[[
+	    5043.18014,
+		27999.16807,
+		34069.64209,
+		24765.34227,
+		6729.53342
+                ]]],
+  "reference": "DFT, this work",
+  "comment": "calculationsDFT"
+}

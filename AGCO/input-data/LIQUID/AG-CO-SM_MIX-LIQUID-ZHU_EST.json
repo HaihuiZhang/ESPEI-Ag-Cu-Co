@@ -1,0 +1,47 @@
+{
+	"components": ["AG", "CO"],
+    "phases": ["LIQUID"],
+	"solver": {
+		"mode": "manual",
+		"sublattice_site_ratios": [1],
+		"sublattice_occupancies": [
+					[[0.1, 0.9]],
+					[[0.2, 0.8]],
+					[[0.3, 0.7]],
+					[[0.4, 0.6]],
+					[[0.5, 0.5]],
+					[[0.6, 0.4]],
+					[[0.7, 0.3]],
+					[[0.8, 0.2]],
+					[[0.9, 0.1]]
+		],
+		"sublattice_configurations": [
+			[["AG", "CO"]],
+			[["AG", "CO"]],
+			[["AG", "CO"]],
+			[["AG", "CO"]],
+			[["AG", "CO"]],
+			[["AG", "CO"]],
+			[["AG", "CO"]],
+			[["AG", "CO"]],
+			[["AG", "CO"]]
+		]
+  },
+  "conditions": {
+	  "P": 101325,
+	  "T": 1723
+  },
+  "excluded_model_contributions": ["idmix","mag"],
+  "output": "SM_MIX",
+  "values":   [[[2.1602994,
+3.7018656,
+4.6766986,
+5.1367984,
+5.134165,
+4.7207984,
+3.9486986,
+2.8698656,
+1.5362994]]],
+  "reference": "ZHU",
+  "comment": "EST"
+}

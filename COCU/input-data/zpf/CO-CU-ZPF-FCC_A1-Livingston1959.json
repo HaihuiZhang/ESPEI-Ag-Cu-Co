@@ -1,0 +1,28 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			823,
+			873,
+			923,
+			973,
+			1023,
+			1073,
+			1123
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9973]]],
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9962]]],
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9946]]],
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9925]]],
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9898]]],
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9871]]],
+			[["FCC_A1", ["CU"], [null]], ["FCC_A1", ["CU"],  [0.9806]]]
+    ],
+    "reference": "Livingston1959"
+}

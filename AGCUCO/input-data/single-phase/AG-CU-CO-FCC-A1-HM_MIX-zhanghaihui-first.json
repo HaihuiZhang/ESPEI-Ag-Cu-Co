@@ -1,0 +1,30 @@
+{
+    "components": ["AG", "CO", "CU"],
+    "phases": ["FCC_A1"],
+    "solver": {
+	"mode": "manual",
+	"sublattice_site_ratios": [1],
+	"sublattice_occupancies": [
+	    [[0.5, 0.25, 0.25]],
+	    [[0.25, 0.5, 0.25]],
+	    [[0.25, 0.25, 0.5]],
+	    [[0.333, 0.333, 0.334]]		
+	],
+	"sublattice_configurations": [
+	    [["AG","CO", "CU"]],
+	    [["AG","CO", "CU"]],
+	    [["AG","CO", "CU"]],
+	    [["AG","CO", "CU"]]		
+	]
+    },
+    "conditions": {
+	"P": 101325,
+	"T": 298.15
+    },
+    "output": "HM_MIX",
+    "values":   [[[
+	-32028, -26523, -41072, -31668
+    ]]],
+    "reference": "zhanghaihui",
+    "comment": "calculationsDFT"
+}

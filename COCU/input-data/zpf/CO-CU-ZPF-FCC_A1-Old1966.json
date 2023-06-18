@@ -1,0 +1,26 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			1174,
+			1223,
+			1275,
+			1313,
+			1355,
+			1374
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+			[["FCC_A1", ["CU"], [0.048]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.073]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.092]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.105]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.13]], ["FCC_A1", ["CU"],  [null]]],
+			[["FCC_A1", ["CU"], [0.13]], ["FCC_A1", ["CU"],  [null]]]
+    ],
+    "reference": "Old1966"
+}

@@ -1,0 +1,30 @@
+{
+    "components": ["CO", "CU", "VA"],
+    "phases": ["FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+		1173,
+		1223,
+		1273,
+		1298,
+		1323,
+		1333,
+		1353,
+		1373
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+		[["FCC_A1", ["CU"], [0.047]], ["FCC_A1", ["CU"],  [null]]],
+		[["FCC_A1", ["CU"], [0.056]], ["FCC_A1", ["CU"],  [null]]],
+		[["FCC_A1", ["CU"], [0.069]], ["FCC_A1", ["CU"],  [null]]],
+		[["FCC_A1", ["CU"], [0.08]], ["FCC_A1", ["CU"],  [null]]],
+		[["FCC_A1", ["CU"], [0.094]], ["FCC_A1", ["CU"],  [null]]],
+		[["FCC_A1", ["CU"], [0.106]], ["FCC_A1", ["CU"],  [null]]],
+		[["FCC_A1", ["CU"], [0.116]], ["FCC_A1", ["CU"],  [null]]],
+		[["FCC_A1", ["CU"], [0.123]], ["FCC_A1", ["CU"],  [null]]]
+    ],
+    "reference": "Hasebe1980"
+}

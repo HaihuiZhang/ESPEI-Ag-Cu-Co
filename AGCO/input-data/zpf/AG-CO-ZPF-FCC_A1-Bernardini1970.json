@@ -1,0 +1,32 @@
+{
+    "components": ["AG", "CO", "VA"],
+    "phases": ["FCC_A1"],
+    "conditions": {
+	"P": 101325,
+	"T": [
+			1240, 1240,
+			1223, 1223,
+			1173, 1173,
+			1073, 1073,
+			973, 973,
+			873, 873
+	]
+    },
+    "broadcast_conditions": false,
+    "output": "ZPF",
+    "values":   [
+        [["FCC_A1", ["CO"], [0.0081]], ["FCC_A1", ["CO"],  [null]]],
+		[["FCC_A1", ["CO"], [null]], ["FCC_A1", ["CO"],  [1]]],
+        [["FCC_A1", ["CO"], [0.0071]], ["FCC_A1", ["CO"],  [null]]],
+		[["FCC_A1", ["CO"], [null]], ["FCC_A1", ["CO"],  [1]]],
+        [["FCC_A1", ["CO"], [0.0048]], ["FCC_A1", ["CO"],  [null]]],
+		[["FCC_A1", ["CO"], [null]], ["FCC_A1", ["CO"],  [1]]],
+        [["FCC_A1", ["CO"], [0.0019]], ["FCC_A1", ["CO"],  [null]]],
+		[["FCC_A1", ["CO"], [null]], ["FCC_A1", ["CO"],  [1]]],
+        [["FCC_A1", ["CO"], [0.0006]], ["FCC_A1", ["CO"],  [null]]],
+		[["FCC_A1", ["CO"], [null]], ["FCC_A1", ["CO"],  [1]]],
+        [["FCC_A1", ["CO"], [0.0002]], ["FCC_A1", ["CO"],  [null]]],
+		[["FCC_A1", ["CO"], [null]], ["FCC_A1", ["CO"],  [1]]]
+    ],
+    "reference": "Bernardini1970"
+}
